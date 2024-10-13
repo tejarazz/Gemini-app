@@ -11,7 +11,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: process.env.CLIENT_URL,
+    origin: "https://textiniai.netlify.app",
     credentials: true,
   })
 );
